@@ -1,6 +1,6 @@
 import pytest
 from fastapi.testclient import TestClient
-from main import create_application
+from task_2_main import create_application
 
 
 @pytest.fixture()
