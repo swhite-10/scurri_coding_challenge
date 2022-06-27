@@ -7,7 +7,7 @@ def three_five(start: int = 1, stop: int = 100) -> None:
     :param start:int - Lower bound (inclusive) for printing range. Default = 1.
     :param stop: int - Upper bound (inclusive) for printing range. Default = 100.
 
-    :return: int | str - implementation of three_five
+    :return: int | str - print output of three_five implementation
     """
     for i in range(start, stop + 1):
         if i % 3 == 0 and i % 5 == 0:
