@@ -29,7 +29,7 @@ class GetPostcode:
                     'Outward Code': outward_code,
                     'Inward Code': inward_code}
 
-    def postcode_validator(self):
+    def postcode_validator(self) -> bool:
         """
         Performs validation check of input UK postcode utilising regular expression check (including special cases)
         as defined: https://en.wikipedia.org/wiki/Postcodes_in_the_United_Kingdom#Validation
